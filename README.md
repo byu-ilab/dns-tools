@@ -1,4 +1,3 @@
-dns-tools
-=========
+# DNS Tools
 
-DNS research
+Tools for DNS research, used at the BYU Internet Research Lab.
