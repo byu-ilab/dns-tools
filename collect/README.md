@@ -1,10 +1,18 @@
 # Collection Tools
 
 ## Setup for the DB
-
+#### apt-get
 ```
 sudo apt-get install mysql-server
 sudo apt-get install libmysqlclient-dev
+```
+#### yum
+```
+sudo yum install mysql-server
+sudo yum install mysql-devel
+```
+#### MySQL
+```
 mysql -u root -p
 mysql> CREATE DATABASE com;
 mysql> GRANT ALL PRIVILEGES ON com.* TO "dns"@"localhost" IDENTIFIED BY "password";
