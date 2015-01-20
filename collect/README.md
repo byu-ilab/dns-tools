@@ -27,7 +27,7 @@ sudo pip install virtualenv
 mkdir ~/virtualenvs
 virtualenv ~/virtualenvs/dns-tools
 source ~/virtualenvs/dns-tools/bin/activate
-pip install requirements.txt
+pip install -r requirements.txt
 ```
 
 ## Execute code
